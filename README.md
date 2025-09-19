@@ -37,7 +37,6 @@ This project implements an end-to-end machine learning solution for the **Brazil
 
 ## Project Structure
 
-## 📂 Project Structure
 
 ```plaintext
 brazilian_ecommerce_classifier/
@@ -55,9 +54,11 @@ brazilian_ecommerce_classifier/
 │   └── modeling/
 │       ├── classifier.py
 │       └── reason_extractor.py
-├── data/              # Raw CSV files (not included)
-├── main.py            # Main pipeline orchestration
+├── data/              # Raw CSV files
+├── main.py            # Main pipeline
+├── olist.ipynb        # Jupyter notebook for analysis and experimentation
 └── requirements.txt   # Python dependencies
+
 
 
 ---
