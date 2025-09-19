@@ -114,7 +114,7 @@ df_with_target = create_classification_target(master_df)
 model_results = build_classification_models(df_engineered)
 ```
 
-### Advanced Example (Bonus)
+### Example (Bonus Implementation)
 ```python
 from src.modeling import extract_sentiment_reasons
 
@@ -148,7 +148,7 @@ print(f"Reason coverage: {reason_results['coverage_percentage']:.1f}%")
 - Grid search + cross-validation  
 - Macro F1-score evaluation  
 
-### Reason Extraction (Bonus)
+### Reason Extraction (Bonus Implementation)
 - Delivery, quality, service, price, product description  
 
 ---
